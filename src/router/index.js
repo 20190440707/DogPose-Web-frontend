@@ -35,13 +35,13 @@ const router = createRouter({
               path: 'olfaction',
               name: 'OlfactionPage',
               component: () => import('@/views/inference/InferencePageView.vue'),
-              props: { port: 10001 },
+              props: { port: 10011 },
             },
             {
               path: 'courage',
               name: 'CouragePage',
               component: () => import('@/views/inference/InferencePageView.vue'),
-              props: { port: 10002 },
+              props: { port: 10021 },
             },
             {
               path: 'aggressiveness',
